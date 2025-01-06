@@ -10,3 +10,8 @@ Django - Learning Doc, Tips &amp; Tricks
   - <a href="#" target="_blank" rel="noopener noreferrer">How to create App?</a>
 - <a href="https://github.com/Aravindray/Django/blob/main/activities.md" target="_blank" rel="noopener noreferrer">Activities</a>
 - <a href="#" target="_blank" rel="noopener noreferrer"></a>
+
+
+### Basic Notations
+
+This is prompt ```$>```
