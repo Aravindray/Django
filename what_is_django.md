@@ -7,6 +7,7 @@
     - [Second - How to Create Virtual Environment!](#second---how-to-create-virtual-environment)
     - [Third - How to Install Django?](#third---how-to-install-django)
     - [Fourth - How to Create Django Project?](#fourth---how-to-create-django-project)
+    - [Fifth - How to Create Django application (app)?](#fifth---how-to-create-django-application-app)
 
 # What is Django?
 
@@ -40,8 +41,8 @@ Django is free and open-source, back-end web development framework based on Pyth
    
 ### Fourth - How to Create Django Project?
 
-1. To create a project use this command ```(env_name) $> django-admin startproject project_name .``` <br> **Note: Don't forget to add period (or dot) . at the end**
-2. That's it a basic file structure for your project is ready
+1. To create a project use this command ```(env_name) $> django-admin startproject project_name .``` <br> **Note: Don't forget to add period (or dot) . at the end & avoid naming project after built-in Python or Django modules**
+2. That's it, a basic file structure for your project is ready.
 
 <hr>
 
@@ -60,3 +61,8 @@ A package is the collection of modules, while a library is a collection of packa
 **What is pip?**
 
 Pip (Pip Installs Packages) is a package manager for python, that allows to install and manage python packages.
+
+### Fifth - How to Create Django application (app)?
+
+1. To create a app use this command ```(env_name) $> py manage.py startapp app_name```
+2. A app consist of module, views, templates and URLS.
