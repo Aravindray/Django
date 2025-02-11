@@ -5,12 +5,17 @@ Django - Learning Doc, Tips &amp; Tricks
 
 - Introduction
   - [What is Django?](Introduction/1-What-is-Django.ipynb)
+- Forms
+  - [Introduction](Forms/1-Introduction.ipynb)
+- Models
+  - [Introduction](Models/1-Introduction.ipynb)
+- ORM
+  - [Introduction](ORM/1-Introduction.ipynb)
+- Templates
+  - [Introduction](Templates/1-Introduction.ipynb)
+- Views
+  - [Introduction](Views/1-Introduction.ipynb)
 
-
-### Basic Notations
-
-This is a Terminal prompt ```$>``` <br>
-This is a Python prompt ```>>>```
 
 ## Upcoming Posts
 
@@ -20,3 +25,8 @@ This is a Python prompt ```>>>```
 4. How to change password
 5. How to reset a password
 6. How to login and logout a user
+
+### Basic Notations
+
+This is a Terminal prompt ```$>``` <br>
+This is a Python prompt ```>>>```
