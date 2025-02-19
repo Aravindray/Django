@@ -26,6 +26,7 @@ Django - Learning Doc, Tips &amp; Tricks
 5. How to reset a password
 6. How to login and logout a user
 7. facing this error while loaddata from sqlite3 to postgresql �
+8. Create notes about template tags and filter (include, forloop.last)
 
 ### Basic Notations
 
