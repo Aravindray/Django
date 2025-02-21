@@ -4,7 +4,7 @@ Django - Learning Doc, Tips &amp; Tricks
 ## Table of Content
 
 - Introduction
-  - [What is Django?](Introduction/1-What-is-Django.ipynb)
+  - [What is Django?](1-Introduction/1-What-is-Django.ipynb)
 - Forms
   - [Introduction](Forms/1-Introduction.ipynb)
 - Models
