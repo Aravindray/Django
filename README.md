@@ -19,14 +19,19 @@ Django - Learning Doc, Tips &amp; Tricks
 
 ## Upcoming Posts
 
-1. How to check django version in a project - python -m django --version
-2. How to use social authentication in your project
-3. How to register a user
-4. How to change password
-5. How to reset a password
-6. How to login and logout a user
-7. facing this error while loaddata from sqlite3 to postgresql �
-8. Create notes about template tags and filter (include, forloop.last)
+1. How to implement a CRUD operation in Django?
+2. How to implement Read operation in both function based view and class based view?
+3. How to implement Create operation in both function based view and class based view?
+4. How to implement Update operation in both function based view and class based view?
+5. How to implement Delete operation in both function based view and class based view?
+6. How to check django version in a project - python -m django --version
+7. How to use social authentication in your project
+8. How to register a user
+9. How to change password
+10. How to reset a password
+11. How to login and logout a user
+12. facing this error while loaddata from sqlite3 to postgresql �
+13. Create notes about template tags and filter (include, forloop.last)
 
 ### Basic Notations
 
