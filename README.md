@@ -32,6 +32,7 @@ Django - Learning Doc, Tips &amp; Tricks
 11. How to login and logout a user
 12. facing this error while loaddata from sqlite3 to postgresql �
 13. Create notes about template tags and filter (include, forloop.last)
+14. How to add date and current datetime based on timezone?
 
 ### Basic Notations
 
