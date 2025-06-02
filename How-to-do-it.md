@@ -39,3 +39,91 @@ DATABASES = {
 4. Apply Migrations: Run the following commands to apply migrations and set up your database schema: `python manage.py makemigrations` & `python manage.py migrate`
 
 5. Test the Connection: Run the Django development server: `python manage.py runserver`
+
+
+model form
+
+To create a model form in Django and add a new item to your Category model, follow these steps:
+
+1. Define Your Model
+
+Ensure your Category model is defined in models.py with a name field.
+
+Copy the code
+from django.db import models
+
+class Category(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+2. Create a ModelForm
+
+Create a CategoryForm in forms.py to handle the form logic.
+
+Copy the code
+from django import forms
+from .models import Category
+
+class CategoryForm(forms.ModelForm):
+    class Meta:
+        model = Category
+        fields = ['name']
+
+3. Create a View to Handle the Form
+
+In views.py, create a view to display the form and handle form submissions.
+
+Copy the code
+from django.shortcuts import render, redirect
+from .forms import CategoryForm
+
+def add_category(request):
+    if request.method == 'POST':
+        form = CategoryForm(request.POST)
+        if form.is_valid():
+            form.save()  # Save the new category to the database
+            return redirect('category_list')  # Redirect to a category list or another page
+    else:
+        form = CategoryForm()
+    return render(request, 'add_category.html', {'form': form})
+
+4. Create a Template
+
+Create a template add_category.html to render the form.
+
+Copy the code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Category</title>
+</head>
+<body>
+    <h1>Add New Category</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add Category</button>
+    </form>
+</body>
+</html>
+
+5. Configure URL
+
+Add a URL pattern in urls.py to map to the add_category view.
+
+Copy the code
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('add-category/', views.add_category, name='add_category'),
+]
+
+6. Run the Server and Test
+Start your Django development server: python manage.py runserver.
+Navigate to /add-category/ in your browser.
+Fill out the form and submit to add a new category.
+
+This setup will allow you to create a new category using a Django model form.
