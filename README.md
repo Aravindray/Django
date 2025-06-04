@@ -33,6 +33,7 @@ Django - Learning Doc, Tips &amp; Tricks
 12. facing this error while loaddata from sqlite3 to postgresql �
 13. Create notes about template tags and filter (include, forloop.last)
 14. How to add date and current datetime based on timezone?
+15. wirte post about DeatilView - get_context_data function which return multiple query to html template
 
 ### Basic Notations
 
