@@ -1,3 +1,8 @@
+## Table of Content
+- [Django Overviews](#django-overviews)
+  - [Main Framework Components](#main-framework-components)
+  - [Simple overview of Django architecture](#simple-overview-of-django-architecture)
+
 # Django Overviews
 
 ## Main Framework Components

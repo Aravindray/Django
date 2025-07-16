@@ -1,3 +1,8 @@
+## Table of Content
+- [Fields](#fields)
+  - [How to add Many-to-One relationship?](#how-to-add-many-to-one-relationship)
+  - [How to add enumeration/dropdown fields in Database table with Django?](#how-to-add-enumerationdropdown-fields-in-database-table-with-django)
+
 # Fields
 
 <table>

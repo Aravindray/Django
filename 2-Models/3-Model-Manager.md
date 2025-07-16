@@ -1,3 +1,8 @@
+## Table of Content
+- [Model Manager](#model-manager)
+  - [What is Model Manager](#what-is-model-manager)
+  - [How to create a custom model manager?](#how-to-create-a-custom-model-manager)
+
 # Model Manager
 
 ## What is Model Manager

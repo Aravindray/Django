@@ -1,3 +1,11 @@
+## Table of Content
+- [Admin Site](#admin-site)
+  - [What is admin site?](#what-is-admin-site)
+  - [How to configure admin site?](#how-to-configure-admin-site)
+  - [How to add / register app model in admin site?](#how-to-add--register-app-model-in-admin-site)
+  - [How to customize the admin view?](#how-to-customize-the-admin-view)
+  - [Attributes of ModelAdmin class!](#attributes-of-modeladmin-class)
+
 # Admin Site
 
 ## What is admin site?

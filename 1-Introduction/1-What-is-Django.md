@@ -1,5 +1,18 @@
 ## Table of Content
 - [What is Django?](#what-is-django)
+  - [How to setup \& create Django project?](#how-to-setup--create-django-project)
+    - [1. How to Install Python!](#1-how-to-install-python)
+    - [2.a. How to Create Virtual Environment!](#2a-how-to-create-virtual-environment)
+    - [2.b. How to create a Virtual Environment in a seperate folder?](#2b-how-to-create-a-virtual-environment-in-a-seperate-folder)
+    - [3. How to Install Django?](#3-how-to-install-django)
+    - [4. How to Create Django Project?](#4-how-to-create-django-project)
+    - [5. How to Create Django application (app)?](#5-how-to-create-django-application-app)
+    - [6. How to activate the application?](#6-how-to-activate-the-application)
+    - [7. How to Change the Timezone?](#7-how-to-change-the-timezone)
+    - [8. Now it is Good time to change backend database!](#8-now-it-is-good-time-to-change-backend-database)
+    - [9. How to Migrate for creating database table?](#9-how-to-migrate-for-creating-database-table)
+    - [10. How to run the development server?](#10-how-to-run-the-development-server)
+    - [11. How to create a super user or Admin?](#11-how-to-create-a-super-user-or-admin)
 
 # What is Django?
 
