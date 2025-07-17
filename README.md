@@ -28,9 +28,9 @@ Django - Learning Doc, Tips &amp; Tricks
   - └── [Pagination.md](https://github.com/Aravindray/Django/blob/main/5-Views/Pagination.md)
 - ├── 6-Templates /
   - └── [1-Templates-Intro.md](https://github.com/Aravindray/Django/blob/main/6-Templates/1-Templates-Intro.md)
-- ├── 99-Extra /
-  - └── [Sitemap.md](https://github.com/Aravindray/Django/blob/main/99-Extra/Sitemap.md)
-  - └── [Taggit.md](https://github.com/Aravindray/Django/blob/main/99-Extra/Taggit.md)
+- ├── 98-Extra /
+  - └── [Sitemap.md](https://github.com/Aravindray/Django/blob/main/98-Extra/Sitemap.md)
+  - └── [Taggit.md](https://github.com/Aravindray/Django/blob/main/98-Extra/Taggit.md)
 - ├── 100-Notes /
   - └── [How-to-do-it.md](https://github.com/Aravindray/Django/blob/main/100-Notes/How-to-do-it.md)
 - ├── [Dj-Upcoming-Activities.md](./Dj-Upcoming-Activities.md)
